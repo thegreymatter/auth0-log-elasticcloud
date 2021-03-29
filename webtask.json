@@ -468,7 +468,7 @@
       "example": "blabla",
       "required": true
     },
-    "ELASTIC_USERNAME": {
+    "ELASTIC_USER": {
       "description": "elastic cluster authenticatioj",
       "example": "x:y",
       "required": true
