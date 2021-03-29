@@ -463,7 +463,7 @@
         }
       ]
     },
-    "ELASTIC_ID": {
+    "ELASTIC_HOST": {
       "description": "elastic cluster token",
       "example": "blabla",
       "required": true
