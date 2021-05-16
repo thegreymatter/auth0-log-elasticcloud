@@ -481,7 +481,7 @@
     "ELASTIC_INDEX": {
       "description": "Index",
       "required": true,
-      "default":"logs-auth"
+      "default":"logs-auth-"
     }
   },
   "title": "Auth0 Logs to Elastic",
