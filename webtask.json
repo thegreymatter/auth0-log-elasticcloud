@@ -493,7 +493,8 @@
       "default": 5,
       "visibleIf": {
         "SEND_AS_BATCH": "false"
-      },
+      }
+    },
       "ELASTIC_HOST": {
         "description": "elastic hostname",
         "example": "blabla",
@@ -514,8 +515,9 @@
         "required": true,
         "default": "auth-logs-"
       }
-    }
-  },
+    
+    },
+  
   "title": "Auth0 Authentication API webhooks",
   "name": "auth0-authentication-api-webhooks",
   "version": "2.3.4",
