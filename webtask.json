@@ -1,7 +1,7 @@
 {
   "author": "auth0",
   "type": "cron",
-  "category": "log_export",
+  "category": "webhook",
   "initialUrlPath": "/login",
   "repository": "https://github.com/auth0-extensions/auth0-logs-to-provider",
   "keywords": [
@@ -488,10 +488,10 @@
       "default": "auth-logs-"
     }
   },
-  "title": "Auth0 Logs to Elasttic clouf",
-  "name": "auth0-elastic-cloud-x",
-  "version": "2.3.8",
-  "preVersion": "2.3.5",
+  "title": "Auth0 Logs to Elastic cloud",
+  "name": "auth0-ec",
+  "version": "2.4",
+  "preVersion": "2.3.4",
   "description": "This extension will continuously export your Auth0 logs to Elastic cloud",
   "docsUrl": "https://auth0.com/docs/extensions/logstash",
   "logoUrl": "https://cdn.auth0.com/extensions/auth0-logs-to-logstash/assets/logo.png"
