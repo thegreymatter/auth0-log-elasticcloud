@@ -516,7 +516,7 @@
       "default": "auth-logs-"
     }
   },
-  "title": "Auth0 Authentication API webhooks",
+  "title": "Auth0 zurbabel",
   "name": "auth0-zurbabel",
   "version": "2.5.4",
   "preVersion": "2.3.3",
