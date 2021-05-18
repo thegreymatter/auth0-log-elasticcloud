@@ -490,7 +490,7 @@
   },
   "title": "Auth0 Logs to Elastic cloud",
   "name": "auth0-ec",
-  "version": "2.4",
+  "version": "2.4.8",
   "preVersion": "2.3.4",
   "description": "This extension will continuously export your Auth0 logs to Elastic cloud",
   "docsUrl": "https://auth0.com/docs/extensions/logstash",
