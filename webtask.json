@@ -463,64 +463,37 @@
         }
       ]
     },
-    "WEBHOOK_URL": {
-      "required": true,
-      "type": "text"
-    },
-    "AUTHORIZATION": {
-      "description": "Authorization Header (optional).",
-      "example": "Basic dm9yZGVsOnZvcmRlbA==",
-      "type": "text"
-    },
-    "SEND_AS_BATCH": {
-      "description": "If enabled, extension will send entire batch in one request. Otherwise, it will send requests one by one.",
-      "type": "select",
-      "allowMultiple": false,
-      "default": "true",
-      "options": [
-        {
-          "value": "true",
-          "text": "Enabled"
-        },
-        {
-          "value": "false",
-          "text": "Disabled"
-        }
-      ]
-    },
-    "WEBHOOK_CONCURRENT_CALLS": {
-      "description": "The maximum concurrent calls that will be made to your webhook",
-      "default": 5,
-      "visibleIf": {
-        "SEND_AS_BATCH": "false"
-      }
-    },
     "ELASTIC_HOST": {
       "description": "elastic hostname",
       "example": "blabla",
+      "type": "text",
       "required": true
     },
     "ELASTIC_USER": {
       "description": "elastic cluster authenticatioj",
       "example": "x:y",
+      "type": "text",
+      "default": "elastic",
       "required": true
     },
     "ELASTIC_PASSWORD": {
       "description": "elastic cluster authenticatioj",
       "example": "x:y",
+      "type": "text",
       "required": true
     },
     "ELASTIC_INDEX": {
       "description": "Index",
       "required": true,
+      "type": "text",
       "default": "auth-logs-"
     }
   },
-  "title": "Auth0 zurbabel",
-  "name": "auth0-zurbabel",
-  "version": "2.5.4",
-  "preVersion": "2.3.3",
-  "description": "Allows you to define webhooks for Auth0's Authentication API. It will go through the audit logs and call a webhook for specific events.",
-  "docsUrl": "https://auth0.com/docs/extensions/authentication-api-webhooks",
-  "logoUrl": "https://cdn.auth0.com/extensions/auth0-authentication-api-webhooks/assets/logo.svg"
+  "title": "Auth0 Logs to Elastic cloud X",
+  "name": "auth0-ecx",
+  "version": "2.4.5",
+  "preVersion": "2.4.4",
+  "description": "This extension will continuously export your Auth0 logs to Elastic cloud",
+  "docsUrl": "https://auth0.com/docs/extensions/ec",
+  "logoUrl": "https://cdn.auth0.com/extensions/auth0-logs-to-logstash/assets/logo.png"
 }
