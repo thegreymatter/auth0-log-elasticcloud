@@ -1,7 +1,7 @@
 {
   "author": "auth0",
   "type": "cron",
-  "category": "webhook",
+  "category": "log_export",
   "initialUrlPath": "/login",
   "repository": "https://github.com/auth0-extensions/auth0-logs-to-provider",
   "keywords": [
